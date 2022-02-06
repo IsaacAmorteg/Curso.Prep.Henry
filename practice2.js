@@ -71,7 +71,7 @@ function tablaDelSeis() {
     let tablaSeis = [];
     for (let i = 0; i <= 60; i += 6 ) {
     tablaSeis.push(i);
-    }return (tablaSeis);
+    }return console.log(tablaSeis);
   } 
 
 
@@ -98,7 +98,7 @@ function tablaDelSeis() {
     } while (false);
     console.log(numero);
 }
-  doWhile(5);
+  
 
     //Version 1.1
   function doWhileV2(numero) {
@@ -108,5 +108,6 @@ function tablaDelSeis() {
       limite = limite +1;
     } while (limite < 8);
     console.log(numero);
-}
-doWhileV2(5);
+} doWhileV2(-1);
+/////////////////////////////
+//tablaDelSeis();
