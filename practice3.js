@@ -107,3 +107,13 @@ function mesesDelAño(array) {
     }
   }
 //mesesDelAño(["Marzo", "Diciembre", "Abril", "Junio", "Julio", "Noviembre", "Enero", "Mayo", "Febrero"]);
+
+
+function numeroMasGrande(numeros) {
+  // "numeros" debe ser una matriz de enteros (int/integers)
+  // Devuelve el número más grande
+  // Tu código:
+  for (i = 0; i < numeros.length; i++) {
+    if (numeros[i] > numeros [i + 1]) return numeros[i];
+  }
+}
